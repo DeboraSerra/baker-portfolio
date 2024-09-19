@@ -6,7 +6,7 @@ import NavBar from "./navBar";
 
 const Header = () => {
   return (
-    <header className='flex justify-around items-center py-4 bg-wine-100 shadow-md'>
+    <header className='flex justify-between items-center py-4 px-12 bg-wine-100 shadow-md relative'>
       <div>
         <Link href='/'>
           <Image src={logo} alt='Laptop' width={50} height={50} />
